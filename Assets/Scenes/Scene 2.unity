@@ -3484,8 +3484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4efe627e6b4ec0944a1100333bf41ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meleePrefab: {fileID: 102927209}
-  rangePrefab: {fileID: 1181254882}
+  meleePrefab: {fileID: 2112913451}
+  rangePrefab: {fileID: 1957756625}
   faceIcon: {fileID: 21300000, guid: 6a8c8893c43c88a42bb3bece92396962, type: 3}
 --- !u!114 &1895519218
 MonoBehaviour:
@@ -3669,7 +3669,7 @@ PrefabInstance:
         type: 3}
       propertyPath: owner
       value: 
-      objectReference: {fileID: 140989275}
+      objectReference: {fileID: 1895519215}
     - target: {fileID: 6361829891152757722, guid: 34ee5fd3ac867fc408ffd9d8a781780c,
         type: 3}
       propertyPath: magicCost
@@ -3762,6 +3762,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34ee5fd3ac867fc408ffd9d8a781780c, type: 3}
+--- !u!1 &1957756625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6361829891152757721, guid: 34ee5fd3ac867fc408ffd9d8a781780c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1957756624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1968596615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6102049478737408629, guid: c62072f0937450f41b373aa7e42c09ed,
@@ -4182,7 +4188,7 @@ PrefabInstance:
         type: 3}
       propertyPath: owner
       value: 
-      objectReference: {fileID: 140989275}
+      objectReference: {fileID: 1895519215}
     - target: {fileID: 3964838364831968566, guid: 5f994afae7ee91b4b86c6c1cd4866aa5,
         type: 3}
       propertyPath: animationName
@@ -4265,6 +4271,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f994afae7ee91b4b86c6c1cd4866aa5, type: 3}
+--- !u!1 &2112913451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3964838364831968565, guid: 5f994afae7ee91b4b86c6c1cd4866aa5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2112913450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!212 &1907169763536314373
 SpriteRenderer:
   m_ObjectHideFlags: 0
